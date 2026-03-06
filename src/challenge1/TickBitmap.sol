@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.20;
 
-import {BitMath} from "../libraries/Bitmath.sol";
+import {BitMath} from "./libraries/Bitmath.sol";
 
 library TickBitmap {
     function position(int24 pos) private pure returns (int16 bitPos, uint8 wordPos) {
